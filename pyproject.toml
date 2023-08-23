@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ws-chat"
+version = "0.1.0"
+description = ""
+authors = ["jakhongir <ganiyevuzb@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ws_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+websocket = "^0.2.1"
+wsproto = "^1.2.0"
+websockets = "^11.0.3"
+jinja2 = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
